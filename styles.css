@@ -212,7 +212,26 @@ h2 {
     border-radius: 8px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
-
+.columnleft {
+    float: left;
+    width: 10px;
+    height: 20px;
+    margin-left: 20px;
+    border-radius: 2px;
+  }
+  
+.columnright {
+    float: left;
+    width: 90%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 2px;
+  }
 .detailinfo {
     background: #ffffff;     
     margin-left: 20px;
